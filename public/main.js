@@ -13,6 +13,12 @@ function showQrDiv() {
     document.getElementById("bcode").style.borderColor = "#2b3d55";
 }
 
+//clear input field
+function clearField(){
+    document.getElementById("barcodetext").value = "";
+    document.getElementById("qrtext").value = "";
+}
+
 var flag = 0;
 let qrcode;
 //QR generate button function
