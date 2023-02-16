@@ -82,6 +82,50 @@ text-align: center;
 padding: 20px 0;
 }
 
+
+
+.footer{
+  background-color: gray;
+  height: 25vh;
+  display: grid;
+  grid-template-columns: 1fr 1fr 0.2fr;
+}
+
+.footer-links{
+  list-style: none;
+  padding-left: 0;
+  line-height: 2em;
+}
+
+.footer-linkes-li a{
+  text-decoration: none;
+  color :rgb(255, 255, 255);
+  font-size: 1rem;
+}
+
+.footer .links {
+  padding-left: 5%;
+}
+.footer-copyright a{
+ float:right;
+ padding-right: 10px;
+}
+.footer-copyright{
+background-color: gray;
+border-top: solid 2px white;
+height: 3vh;
+padding-top:0.2%;
+font-size: 1rem;
+}
+
+h3{
+  color: #0d134d;
+  font-size: 1.5rem;
+}
+
+
+
+
 @media (min-width:880px) and (max-width:1360px) {
 .flex-container > div {
   color: white;
